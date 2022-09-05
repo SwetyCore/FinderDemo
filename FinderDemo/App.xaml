@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="FinderDemo.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:FinderDemo"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <FontFamily x:Key="pf_font">/Resources/#萍方0</FontFamily>
+
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/index.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
